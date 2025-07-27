@@ -1,0 +1,5 @@
+[console_scripts]
+additional_client = pos.client:main
+additional_position = pos.position:main
+additional_service = pos.service:main
+

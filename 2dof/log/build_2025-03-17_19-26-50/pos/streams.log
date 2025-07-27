@@ -1,0 +1,25 @@
+[0.416s] Invoking command in '/home/rohit/2dof/src/pos': LD_LIBRARY_PATH=/home/rohit/2dof/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/rohit/2dof/build/pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohit/2dof/install/pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pos build --build-base /home/rohit/2dof/build/pos/build install --record /home/rohit/2dof/build/pos/install.log --single-version-externally-managed install_data
+[0.567s] running egg_info
+[0.567s] writing ../../build/pos/pos.egg-info/PKG-INFO
+[0.567s] writing dependency_links to ../../build/pos/pos.egg-info/dependency_links.txt
+[0.567s] writing entry points to ../../build/pos/pos.egg-info/entry_points.txt
+[0.567s] writing requirements to ../../build/pos/pos.egg-info/requires.txt
+[0.568s] writing top-level names to ../../build/pos/pos.egg-info/top_level.txt
+[0.569s] reading manifest file '../../build/pos/pos.egg-info/SOURCES.txt'
+[0.569s] writing manifest file '../../build/pos/pos.egg-info/SOURCES.txt'
+[0.569s] running build
+[0.570s] running build_py
+[0.570s] copying pos/service.py -> /home/rohit/2dof/build/pos/build/lib/pos
+[0.570s] running install
+[0.570s] running install_lib
+[0.570s] copying /home/rohit/2dof/build/pos/build/lib/pos/service.py -> /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos
+[0.571s] byte-compiling /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos/service.py to service.cpython-310.pyc
+[0.571s] running install_data
+[0.571s] running install_egg_info
+[0.572s] removing '/home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos-0.0.0-py3.10.egg-info' (and everything under it)
+[0.572s] Copying ../../build/pos/pos.egg-info to /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos-0.0.0-py3.10.egg-info
+[0.572s] running install_scripts
+[0.586s] Installing additional_client script to /home/rohit/2dof/install/pos/lib/pos
+[0.586s] Installing additional_service script to /home/rohit/2dof/install/pos/lib/pos
+[0.586s] writing list of installed files to '/home/rohit/2dof/build/pos/install.log'
+[0.600s] Invoked command in '/home/rohit/2dof/src/pos' returned '0': LD_LIBRARY_PATH=/home/rohit/2dof/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/rohit/2dof/build/pos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohit/2dof/install/pos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pos build --build-base /home/rohit/2dof/build/pos/build install --record /home/rohit/2dof/build/pos/install.log --single-version-externally-managed install_data

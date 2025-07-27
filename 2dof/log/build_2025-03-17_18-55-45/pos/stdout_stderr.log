@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pos/pos.egg-info
+writing ../../build/pos/pos.egg-info/PKG-INFO
+writing dependency_links to ../../build/pos/pos.egg-info/dependency_links.txt
+writing entry points to ../../build/pos/pos.egg-info/entry_points.txt
+writing requirements to ../../build/pos/pos.egg-info/requires.txt
+writing top-level names to ../../build/pos/pos.egg-info/top_level.txt
+writing manifest file '../../build/pos/pos.egg-info/SOURCES.txt'
+reading manifest file '../../build/pos/pos.egg-info/SOURCES.txt'
+writing manifest file '../../build/pos/pos.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rohit/2dof/build/pos/build
+creating /home/rohit/2dof/build/pos/build/lib
+creating /home/rohit/2dof/build/pos/build/lib/pos
+copying pos/client.py -> /home/rohit/2dof/build/pos/build/lib/pos
+copying pos/service.py -> /home/rohit/2dof/build/pos/build/lib/pos
+copying pos/__init__.py -> /home/rohit/2dof/build/pos/build/lib/pos
+running install
+running install_lib
+creating /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos
+copying /home/rohit/2dof/build/pos/build/lib/pos/client.py -> /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos
+copying /home/rohit/2dof/build/pos/build/lib/pos/service.py -> /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos
+copying /home/rohit/2dof/build/pos/build/lib/pos/__init__.py -> /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos
+byte-compiling /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos/client.py to client.cpython-310.pyc
+byte-compiling /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos/service.py to service.cpython-310.pyc
+byte-compiling /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rohit/2dof/install/pos/share/ament_index
+creating /home/rohit/2dof/install/pos/share/ament_index/resource_index
+creating /home/rohit/2dof/install/pos/share/ament_index/resource_index/packages
+copying resource/pos -> /home/rohit/2dof/install/pos/share/ament_index/resource_index/packages
+copying package.xml -> /home/rohit/2dof/install/pos/share/pos
+running install_egg_info
+Copying ../../build/pos/pos.egg-info to /home/rohit/2dof/install/pos/lib/python3.10/site-packages/pos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing additional_client script to /home/rohit/2dof/install/pos/lib/pos
+Installing additional_service script to /home/rohit/2dof/install/pos/lib/pos
+writing list of installed files to '/home/rohit/2dof/build/pos/install.log'

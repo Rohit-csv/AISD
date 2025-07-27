@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Define Materials -->
+  <xacro:property name="color_red" value="1 0 0 1"/>
+  <xacro:property name="color_blue" value="0 0 1 1"/>
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry><box size="0.4 0.4 0.2"/></geometry>
+      <material><color rgba="${color_red}"/></material>
+    </visual>
+  </link>
+
+  <!-- Wheel 1 -->
+  <link name="wheel_1">
+    <visual>
+      <geometry><cylinder length="0.05" radius="0.1"/></geometry>
+      <material><color rgba="${color_blue}"/></material>
+    </visual>
+  </link>
+
+  <!-- Joint: Base to Wheel -->
+  <joint name="base_wheel1_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="wheel_1"/>
+    <origin xyz="0.2 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+</robot>

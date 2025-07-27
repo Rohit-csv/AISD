@@ -1,0 +1,93 @@
+[0.009s] Invoking command in '/home/rohit/2dof/build/my_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/2dof/build/my_robot -- -j20 -l20
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.120s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.138s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.139s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.143s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.177s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.178s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.250s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.284s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.302s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.303s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.325s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.349s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.350s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.353s] -- Searching for dependencies of ignition-math6
+[0.354s] -- Looking for OGRE...
+[0.359s] -- Found Ogre Ghadamon (1.9.0)
+[0.359s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.367s] -- Looking for OGRE_Paging...
+[0.367s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.367s] -- Looking for OGRE_Terrain...
+[0.367s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.367s] -- Looking for OGRE_Property...
+[0.367s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.367s] -- Looking for OGRE_RTShaderSystem...
+[0.367s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.367s] -- Looking for OGRE_Volume...
+[0.367s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.368s] -- Looking for OGRE_Overlay...
+[0.368s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.435s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.436s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.436s] -- Searching for dependencies of ignition-transport8
+[0.449s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.459s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.464s] -- Checking for module 'libzmq >= 4'
+[0.480s] --   Found libzmq , version 4.3.4
+[0.536s] -- Checking for module 'uuid'
+[0.555s] --   Found uuid, version 2.37.2
+[0.599s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.600s] -- Searching for dependencies of ignition-msgs5
+[0.623s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.628s] -- Checking for module 'tinyxml2'
+[0.645s] --   Found tinyxml2, version 9.0.0
+[0.691s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.691s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.692s] -- Searching for dependencies of ignition-common3
+[0.692s] -- Looking for dlfcn.h - found
+[0.692s] -- Looking for libdl - found
+[0.708s] -- Searching for <ignition-common3> component [graphics]
+[0.709s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.709s] -- Searching for dependencies of ignition-common3-graphics
+[0.709s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.710s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.710s] -- Searching for dependencies of ignition-fuel_tools4
+[0.744s] -- Checking for module 'jsoncpp'
+[0.762s] --   Found jsoncpp, version 1.9.5
+[0.815s] -- Checking for module 'libzip'
+[0.832s] --   Found libzip, version 1.7.3
+[0.879s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.880s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.880s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.882s] -- Gazebo version: 11.10
+[0.885s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.946s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.946s] -- Configured cppcheck include dirs: 
+[0.946s] -- Configured cppcheck exclude dirs and/or files: 
+[0.946s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.946s] -- Added test 'lint_cmake' to check CMake code style
+[0.946s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.947s] -- Added test 'uncrustify' to check C / C++ code style
+[0.947s] -- Configured uncrustify additional arguments: 
+[0.947s] -- Added test 'xmllint' to check XML markup files
+[0.948s] -- Configuring done
+[0.950s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.950s]   Cannot find source file:
+[0.950s] 
+[0.950s]     src/node.cpp
+[0.950s] 
+[0.950s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.950s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.950s] 
+[0.950s] [0m
+[0.951s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.951s]   No SOURCES given to target: node
+[0.951s] 
+[0.951s] [0m
+[0.951s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.957s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.959s] Invoked command in '/home/rohit/2dof/build/my_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rohit/module2.1/install/service_package:/home/rohit/module2.1/install/my_client_pkg:/home/rohit/assigndirectory/install/pack1:/home/rohit/mynode/install/package1:/opt/ros/humble /usr/bin/cmake --build /home/rohit/2dof/build/my_robot -- -j20 -l20
